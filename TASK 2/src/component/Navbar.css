@@ -1,0 +1,48 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.appnavbar{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 60px;
+    background: #FFFFFF;
+    color: black;
+}
+
+.brandname{
+    font-size: 28px;
+    text-transform: bold;
+}
+
+.nav-btn{
+  background-color: #473cea; 
+  color: white;
+  border-radius: 20px;
+  border: none;
+  padding: 4px 4px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 0px;
+  cursor: pointer;
+}
+.MuiButton-label{
+    color: black;
+    font-family: 'Nunito', sans-serif;
+}
+@media  screen and (max-width: 700px) {
+    .logo{
+        display: flex;
+        position: absolute;
+        top: 15px;
+        left: 35px;
+    }
+}
+© 2022 GitHub, Inc.
+Terms
+Privacy
